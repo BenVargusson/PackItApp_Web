@@ -1,11 +1,20 @@
 function hola() {
 
-    let hola = 0;
 
-    while (hola < 500) {
-        hola = hola +1;
-        console.log(hola);
+    var contraseña = "hola123";
+
+
+
+    var contraseñarial = document.getElementById('pass').value;
+
+
+
+    if (contraseña == contraseñarial ) {
+
+        alert("welcome");
         
+    }else{
+        alert("contraseña erronea");
     }
     
 }
