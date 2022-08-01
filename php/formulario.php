@@ -110,17 +110,22 @@
             </div>
           </div>
         </div>
+        <br><br>
 
 
         <!-- Falta centrar esta parte correctamente. -->
-        <div class="columns is-vcentered">
+        <!-- ok bb -->
+    <div  class="columns is-centered">
+         <div class="columns is-vcentered">
           <div class="control">
-            <button class="button is-link">Enviar Formulario</button>
+            <button class="button is-link" >Enviar Formulario</button>
           </div>
           <div class="control">
             <a href="../index.html" class="button is-link is-light">Volver Atras uwu</a>
           </div>
         </div>
+    </div>
+
   </div>
     
 </body>
