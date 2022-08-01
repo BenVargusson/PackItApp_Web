@@ -19,16 +19,18 @@
           </div>
         </div>
 
-        <div class="column is-3">
-          <label class="label">Nombre de la empresa</label>
-          <div class="control has-icons-left has-icons-right">
-            <input class="input is-success" type="text" placeholder="Ingrese el Nombre de la empresa" value="">
-            <span class="icon is-small is-left">
+        <div class="columns is-centered">
+          <div class="column is-3">
+            <label class="label">Nombre de la empresa</label>
+            <div class="control has-icons-left has-icons-right">
+              <input class="input is-success" type="text" placeholder="Ingrese el Nombre de la empresa" value="">
+              <span class="icon is-small is-left">
               <i class="fas fa-user"></i>
-            </span>
-            <span class="icon is-small is-right">
+              </span>
+              <span class="icon is-small is-right">
               <i class="fas fa-check"></i>
-            </span>
+              </span>
+            </div>
           </div>
         </div>
 
