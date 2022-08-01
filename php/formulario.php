@@ -13,16 +13,16 @@
 
   
         <div class="column is-3">
-          <label class="label">Name</label>
+          <label class="label">Rut Empresa</label>
           <div class="control">
-            <input class="input" type="text" placeholder="Text input">
+            <input class="input" type="text" placeholder="Ingrese el rut de la empresa">
           </div>
         </div>
 
         <div class="column is-3">
-          <label class="label">Username</label>
+          <label class="label">Nombre de la empresa</label>
           <div class="control has-icons-left has-icons-right">
-            <input class="input is-success" type="text" placeholder="Text input" value="bulma">
+            <input class="input is-success" type="text" placeholder="Ingrese el Nombre de la empresa" value="">
             <span class="icon is-small is-left">
               <i class="fas fa-user"></i>
             </span>
@@ -30,13 +30,12 @@
               <i class="fas fa-check"></i>
             </span>
           </div>
-          <p class="help is-success">This username is available</p>
         </div>
 
         <div class="column is-3">
-          <label class="label">Email</label>
+          <label class="label">Correo a la cual se la mandara la info</label>
           <div class="control has-icons-left has-icons-right">
-            <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+            <input class="input is-danger" type="email" placeholder="Ingrese Correo" value="">
             <span class="icon is-small is-left">
               <i class="fas fa-envelope"></i>
             </span>
@@ -44,25 +43,34 @@
               <i class="fas fa-exclamation-triangle"></i>
             </span>
           </div>
-          <p class="help is-danger">This email is invalid</p>
+          <p class="help is-danger">Correo no es Valido</p>
         </div>
 
         <div class="column is-3">
-          <label class="label">Subject</label>
+          <label class="label">Seleccione su Region</label>
           <div class="control">
             <div class="select">
               <select>
-                <option>Select dropdown</option>
-                <option>With options</option>
+                <option>Tarapacá</option>
+                <option>O'Higgins</option>
               </select>
             </div>
           </div>
         </div>
 
+
         <div class="column is-3">
-          <label class="label">Message</label>
+          <label class="label">Comuna:</label>
           <div class="control">
-            <textarea class="textarea" placeholder="Textarea"></textarea>
+            <input class="input" type="text" placeholder="Ingrese su Comuna">
+          </div>
+        </div>
+
+
+        <div class="column is-3">
+          <label class="label">Mensaje</label>
+          <div class="control">
+            <textarea class="textarea" placeholder="Adjunte su Mensaje"></textarea>
           </div>
         </div>
 
@@ -70,7 +78,7 @@
           <div class="control">
             <label class="checkbox">
               <input type="checkbox">
-              I agree to the <a href="#">terms and conditions</a>
+              acepta las condiciones <a href="#">Terminos y condiciones</a>
             </label>
           </div>
         </div>
@@ -79,21 +87,21 @@
           <div class="control">
             <label class="radio">
               <input type="radio" name="question">
-              Yes
+              si
             </label>
             <label class="radio">
               <input type="radio" name="question">
-              No
+              no
             </label>
           </div>
         </div>
 
         <div class="column is-3">
           <div class="control">
-            <button class="button is-link">Submit</button>
+            <button class="button is-link">Enviar Formulario</button>
           </div>
           <div class="control">
-            <button class="button is-link is-light">Cancel</button>
+            <button class="button is-link is-light" href="" >Volver Atras</button>
           </div>
         </div>
   </div>
