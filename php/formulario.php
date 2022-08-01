@@ -103,7 +103,7 @@
             <button class="button is-link">Enviar Formulario</button>
           </div>
           <div class="control">
-            <button class="button is-link is-light" href="" >Volver Atras</button>
+            <a href="../index.html" class="button is-link is-light">Volver Atras uwu</a>
           </div>
         </div>
   </div>
