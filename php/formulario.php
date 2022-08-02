@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Contacto</title>
+    <link rel="icon" href="../Imagenes/Icono.jpeg">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <?php include("main.php"); ?>
+    <?php error_reporting(0); ?>
 </head>
 <body>
 <form action="" method="post">
@@ -60,8 +62,23 @@
               <div class="control">
                 <div class="select">
                 <select name="region">
-                <option value= "Tarapacá">Tarapacá</option>
+                <option value= "Arica-Parinacota">Arica-Parinacota</option>
+                <option value= "Tarapaca">Tarapaca</option>
+                <option value= "Antofagasta">Antofagasta</option>
+                <option value= "Atacama">Atacama</option>
+                <option value= "Coquimbo">Coquimbo</option>
+                <option value= "Valparaiso">Valparaiso</option>
+                <option value= "Metropolitana">Metropolitana</option>
                 <option value= "O'Higgins">O'Higgins</option>
+                <option value= "Maule">Maule</option>
+                <option value= "Ñuble">Ñuble</option>
+                <option value= "Bio-Bio">Bio-Bio</option>
+                <option value= "Araucania">Araucania</option>
+                <option value= "Los Rios">Los Rios</option>
+                <option value= "Los Lagos">Los Lagos</option>
+                <option value= "Aysen">Aysen</option>
+                <option value= "Magallanes- Antartica Chilena">Magallanes- Antartica Chilena</option>
+                
                 </select>
               </div>
             </div>

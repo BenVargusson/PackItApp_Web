@@ -1,17 +1,3 @@
-.contra{
-    border-radius: 100px;
-}
-.footer{
-    background-color: black;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    color: rgb(210, 21, 21);
-}
-.logo{
-    display: block;
-    margin-left:auto;
-    margin-right:auto;
-    width:50%;
+body{
+    color: yellowgreen;
 }
