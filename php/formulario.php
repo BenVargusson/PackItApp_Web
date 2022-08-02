@@ -7,6 +7,7 @@
     <title>Formulario de Contacto</title>
     <link rel="icon" href="../Imagenes/Icono.jpeg">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <?php include("main.php"); ?>
     <?php error_reporting(0); ?>
 </head>
@@ -122,10 +123,12 @@
     <div  class="columns is-centered">
          <div class="columns is-vcentered">
           <div class="control">
-            <input type="submit" class="button is-link" name= "btnEnviar" value= "Enviar">
+            <input type="submit" class="button is-link" name= "btnEnviar" style="padding-right: 20px;" value= "Enviar">
           </div>
+          <br>
+          <br>
           <div class="control">
-            <a href="../index.html" class="button is-link is-light">Volver Atras uwu</a>
+            <a href="../index.html" class="btn btn-success" style="padding-right: 20px;">Volver Atras uwu</a>
           </div>
         </div>
     </div>
