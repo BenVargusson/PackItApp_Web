@@ -1,3 +1,35 @@
 body{
     color: yellowgreen;
 }
+
+.footer{
+background-color: rgb(55, 2, 247);
+bottom: 0;
+width: 100%;
+height: 40px;
+color: rgb(255, 255, 255);
+display: flex;
+justify-content: space-around;
+}
+.pack{
+  color: yellow;
+}
+.ig{
+  color: white;
+}
+.face{
+  color: white;
+}
+.twi{
+  color: white;
+}
+.Redes-Sociales{
+  color: white;
+}
+.aaa{
+  position: relative;
+}
+.footer-final{
+  border: 1px solid;
+}
+
