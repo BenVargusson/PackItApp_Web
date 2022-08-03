@@ -21,7 +21,7 @@
           <div class="column is-3"><!-- Para que los campos no se vean tan amplios-->
             <label class="label">Rut Empresa</label>
             <div class="control">
-              <input class="input" type="text" name="run" placeholder="Ingrese el rut de la empresa">
+              <input class="input" type="text" name="run" placeholder="Ingrese el rut de la empresa.">
             </div>
           </div>
         </div>
@@ -30,7 +30,7 @@
           <div class="column is-3"><!-- Para que los campos no se vean tan amplios-->
             <label class="label">Nombre de la empresa</label>
             <div class="control has-icons-left has-icons-right">
-              <input class="input is-success" type="text" name="nombre" placeholder="Ingrese el Nombre de la empresa" value="">
+              <input class="input is-success" type="text" name="nombre" placeholder="Ingrese el nombre de la empresa." value="">
               <span class="icon is-small is-left">
               <i class="fas fa-user"></i>
               </span>
@@ -43,9 +43,9 @@
 
         <div class="columns is-centered"><!-- Para centrar los campos -->
           <div class="column is-3"><!-- Para que los campos no se vean tan amplios-->
-          <label class="label">Correo a la cual se la mandara la info</label>
+          <label class="label">Correo al cual se enviará la información</label>
             <div class="control has-icons-left has-icons-right">
-              <input class="input is-danger" type="email" name="correo" placeholder="Ingrese Correo" value="">
+              <input class="input is-danger" type="email" name="correo" placeholder="Ingrese el correo electrónico." value="">
               <span class="icon is-small is-left">
               <i class="fas fa-envelope"></i>
               </span>
@@ -53,13 +53,13 @@
               <i class="fas fa-exclamation-triangle"></i>
               </span>
             </div>
-            <p class="help is-danger">Correo no es Valido</p>
+            <p class="help is-danger">El correo no es válido.</p>
           </div>
         </div>
 
         <div class="columns is-centered"><!-- Para centrar los campos -->
           <div class="column is-3"><!-- Para que los campos no se vean tan amplios-->
-            <label class="label">Seleccione su Region</label>
+            <label class="label">Seleccione su región</label>
               <div class="control">
                 <div class="select">
                 <select name="region">
@@ -91,7 +91,7 @@
           <div class="column is-3"><!-- Para que los campos no se vean tan amplios-->
             <label class="label">Comuna:</label>
             <div class="control">
-              <input class="input" type="text" name="comuna" placeholder="Ingrese su Comuna">
+              <input class="input" type="text" name="comuna" placeholder="Ingrese su comuna.">
             </div>
           </div>
         </div>
@@ -100,7 +100,7 @@
           <div class="column is-3"><!-- Para que los campos no se vean tan amplios-->
             <label class="label">Mensaje</label>
             <div class="control">
-              <textarea class="textarea" name="mensaje" placeholder="Adjunte su Mensaje"></textarea>
+              <textarea class="textarea" name="mensaje" placeholder="Adjunte su mensaje."></textarea>
             </div>
           </div>
         </div>
@@ -110,7 +110,7 @@
             <div class="control">
               <label class="checkbox">
                 <input type="checkbox" name="terminos" required>
-               Acepto los <a href="#">términos y condiciones.</a>
+               Acepto los <a href="../views/terms-and-conditions.html">Términos y condiciones.</a>
               </label>
             </div>
           </div>
@@ -128,7 +128,7 @@
           <br>
           <br>
           <div class="control">
-            <a href="../index.html" class="btn btn-success" style="padding-right: 20px;">Volver Atras uwu</a>
+            <a href="../index.html" class="btn btn-success" style="padding-right: 20px;">Regresar</a>
           </div>
         </div>
     </div>
@@ -160,7 +160,7 @@ if ($_POST['btnEnviar'] == "Enviar" ) {
   mysqli_query($cnn,$insertar);
 
 
-  echo "<script>alert('se han ingresado los datos')</script>";
+  echo "<script>alert('Se han ingresado correctamente los datos.')</script>";
 
   
 }
