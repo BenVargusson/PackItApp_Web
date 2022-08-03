@@ -21,16 +21,16 @@
           <div class="column is-3"><!-- Para que los campos no se vean tan amplios-->
             <label class="label">Rut Empresa</label>
             <div class="control">
-              <input class="input" type="text" name="run" placeholder="Ingrese el rut de la empresa.">
+              <input class="input" type="text" name="run" placeholder="Ingrese el Rut de la Empresa.">
             </div>
           </div>
         </div>
 
         <div class="columns is-centered"><!-- Para centrar los campos -->
           <div class="column is-3"><!-- Para que los campos no se vean tan amplios-->
-            <label class="label">Nombre de la empresa</label>
+            <label class="label">Nombre de la Empresa</label>
             <div class="control has-icons-left has-icons-right">
-              <input class="input is-success" type="text" name="nombre" placeholder="Ingrese el nombre de la empresa." value="">
+              <input class="input is-success" type="text" name="nombre" placeholder="Ingrese el Nombre de la Empresa." value="">
               <span class="icon is-small is-left">
               <i class="fas fa-user"></i>
               </span>
@@ -142,8 +142,10 @@
 
 if ($_POST['btnEnviar'] == "Enviar" ) {
 
+  //aqui hacemos la conexion a la BD llamando a $cnn que se encuentra en main.php
   $cnn = conectar();
 
+  //en esta parte se rescata el valor que ingresa el usuario mediante el name , asi creando diferentes variables que contengan el metodo POST
   $rut = $_POST['run'];
   $nombres = $_POST['nombre'];
   $correos = $_POST['correo'];
@@ -154,13 +156,14 @@ if ($_POST['btnEnviar'] == "Enviar" ) {
 
 
 
+  //aqui creamos la sentencia sql que ingresara los datos rescatado por el usuario y los almacenara directamente en la base de datos
   $insertar = "INSERT INTO formulario VALUES ('$rut','$nombres','$correos','$regiones','$comunas','$mensajes','$condiciones')";
 
  
   mysqli_query($cnn,$insertar);
 
 
-  echo "<script>alert('Se han ingresado correctamente los datos.')</script>";
+  echo "<script>alert('Se ha Enviado su Formulario Pronto Estaremos en contacto....')</script>";
 
   
 }
