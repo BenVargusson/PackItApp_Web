@@ -123,7 +123,7 @@
     <div  class="columns is-centered">
          <div class="columns is-vcentered">
           <div class="control">
-            <input type="submit" class="button is-link" name= "btnEnviar" style="padding-right: 20px;" value= "Enviar">
+            <input type="submit" class="button is-link" name= "btnEnviar" style="padding-right: 20px;" value= "Enviar">&nbsp;&nbsp;&nbsp;&nbsp;
           </div>
           <br>
           <br>
