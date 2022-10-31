@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Contacto</title>
     <link rel="icon" href="../Imagenes/Icono.jpeg">
+    <script src="https://kit.fontawesome.com/e7dc23b135.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <?php include("main.php"); ?>
     <?php error_reporting(0); ?>
 </head>
 <body>
-<form action="" method="post">
+  <main>
+<form action="" method="post" class="formulario">
 
   <div class="formulario_pagina">
 
@@ -116,8 +120,6 @@
           </div>
         </div>  
         <br><br>
-
-
         <!-- Falta centrar esta parte correctamente. -->
         <!-- ok bb -->
     <div  class="columns is-centered">
@@ -134,8 +136,64 @@
     </div>
 
   </div>
+  
 
 </form>
+</main>
+<br><br>
+        <footer class="footer has-background-primary-dark">
+      <div class="footer-final">
+        <h4>Donde Estamos?</h4>
+        <h5>Region: O'Higgins</h5>
+        <h5>Comuna: Rancagua</h5>
+        <h5>Direccion: C. Cuevas 70</h5>
+
+      </div>
+
+      &nbsp;&nbsp;&nbsp;&nbsp;;<br>
+
+
+
+
+      <div class="footer-final">
+        <p >
+          <strong class="pack">PackItApp</strong> by <a href="#"></a>
+          Grupo 7
+          
+          <h4>Todos los Derechos Reservados ©</h4>
+          
+        </p>
+
+      </div>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+
+      <div class="footer-final">
+       <h4>Soporte</h4>
+          <h5>Correo: Grupo7@gmail.com</h5>
+          <h5>Telefono: +569587423</h5>
+          <h5>Atencion: 24/7</h5>
+     
+   
+      </div>
+
+      <div class="footer-final">
+        <h4 class="Redes-Sociales">Redes Sociales</h4>
+         <a href="https://www.instagram.com/aiep_rancagua/?hl=es-la" class="ig"><i class="fa-brands fa-instagram"> Instagram</i></a>
+         <br>
+         <a href="https://www.facebook.com/TvOhiggins" class="face"><i class="fa-brands fa-facebook"> Facebook</i></a>
+         <br>
+        <a href="https://twitter.com/elonmusk" class="twi"><i class="fa-brands fa-twitter"> Twitter</i></a>
+
+      </div>
+
+
+
+      
+      </div>
+
+
+      
+    </footer>
 
 
 <?php 
@@ -174,6 +232,8 @@ if ($_POST['btnEnviar'] == "Enviar" ) {
 
 
 ?>
-    
+
+
+
 </body>
 </html>

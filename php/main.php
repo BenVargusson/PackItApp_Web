@@ -13,7 +13,7 @@ function conectar(){
 
     }
 
-    if (! mysqli_select_db($cnn,"packitapp")) {
+    if (! mysqli_select_db($cnn,"proyecto2")) {
         
         
         exit();
