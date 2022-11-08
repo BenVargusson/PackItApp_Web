@@ -20,8 +20,8 @@
         <div class="columns is-centered"><!-- Para centrar los campos -->
           <div class="column is-3"><!-- Para que los campos no se vean tan amplios-->
             <label class="label">Rut Empresa</label>
-            <div class="control">
-              <input class="input" type="text" name="run" placeholder="Ingrese el Rut de la Empresa.">
+            <div>
+            <input type="input" class="input" name="run" placeholder="Ingrese el Rut de la Empresa">
             </div>
           </div>
         </div>
@@ -157,7 +157,7 @@ if ($_POST['btnEnviar'] == "Enviar" ) {
 
 
   //aqui creamos la sentencia sql que ingresara los datos rescatado por el usuario y los almacenara directamente en la base de datos
-  $insertar = "INSERT INTO formulario VALUES ('$rut','$nombres','$correos','$regiones','$comunas','$mensajes','$condiciones')";
+  $insertar = "INSERT INTO formulario_contacto VALUES ('$rut','$nombres','$correos','$regiones','$comunas','$mensajes','$condiciones')";
 
  
   mysqli_query($cnn,$insertar);
