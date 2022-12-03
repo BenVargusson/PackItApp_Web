@@ -1,0 +1,80 @@
+.footer.has-background-primary-dark
+{
+overflow: hidden;
+position: fixed;
+margin-top: auto;
+} 
+
+main h3 title.is-3.has-text-white
+{
+    color:black;
+}
+
+.navbar.is-transparent
+{
+  background-color: #00947e;
+  color:white;
+}
+
+.navbar-link
+{
+  color: white;
+}
+
+.stock_workers_images
+{
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  
+}
+
+.footer{
+background-color: rgb(55, 2, 247);
+bottom: 0;
+width: 100%;
+height: 40px;
+color: rgb(255, 255, 255);
+display: flex;
+justify-content: space-around;
+}
+.pack{
+  color: yellow;
+}
+.ig{
+  color: white;
+}
+.face{
+  color: white;
+}
+.twi{
+  color: white;
+}
+.Redes-Sociales{
+  color: white;
+}
+.aaa{
+  position: relative;
+}
+.footer-final{
+  border: 1px solid;
+}
+
+.formulario_pagina{
+  color: black;
+  border-style: inset;
+}
+
+
+
+
+body, html
+{
+  background-size: cover;
+  background-image: url(../img/bg_index.png);
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+}
