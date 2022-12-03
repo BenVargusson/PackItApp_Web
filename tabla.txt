@@ -1,0 +1,9 @@
+create table formulario(
+    rut_empresa varchar(25) PRIMARY KEY,
+    nombre_empresa varchar(255),
+    correo varchar(255),
+    region varchar(255),
+    comuna varchar(255),
+    mensaje varchar(255),
+    terminos_condiciones varchar(10)
+)
