@@ -1,6 +1,8 @@
 .footer.has-background-primary-dark
 {
 overflow: hidden;
+position: fixed;
+margin-top: auto;
 }
 
 .footer{
