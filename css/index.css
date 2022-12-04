@@ -24,6 +24,22 @@ margin-top: auto;
   
 }
 
+main
+{
+  margin-top:-70px;
+}
+
+.stock_workers_images img
+{
+  margin-left:25px;
+  margin-right:25px;
+  
+}
+
+
+
+
+
 .footer{
 background-color: rgb(55, 2, 247);
 bottom: 0;
@@ -32,6 +48,7 @@ height: 40px;
 color: rgb(255, 255, 255);
 display: flex;
 justify-content: space-around;
+
 }
 .pack{
   color: yellow;
