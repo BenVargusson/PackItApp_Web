@@ -157,8 +157,7 @@
 
       <div class="footer-final">
         <p >
-          <strong class="pack">PackItApp</strong> y <img src="../Imagenes/grupo7.png" width="189px" height="150px">
-          Grupo 7
+          <strong class="pack">Packify</strong> By Grupo7
           
           <h4>Todos los Derechos Reservados ©</h4>
           
