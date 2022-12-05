@@ -3,6 +3,7 @@
 overflow: hidden;
 position: fixed;
 margin-top: auto;
+border-top: 2px solid #004a3f;
 } 
 
 main h3 title.is-3.has-text-white
@@ -10,10 +11,33 @@ main h3 title.is-3.has-text-white
     color:black;
 }
 
+header
+{
+  margin-left:50px;
+  margin-right:50px;
+}
+
+main
+{
+  margin-left:50px;
+  margin-right: 50px;
+}
+
+.nav_btn
+{
+  margin-top:10px;
+  color:white;
+}
+.nav_btn:hover
+{
+  color:rgb(0, 0, 0);
+
+}
 .navbar.is-transparent
 {
   background-color: #00947e;
   color:white;
+  border-bottom: 2px solid #004a3f;
 }
 
 .navbar-link

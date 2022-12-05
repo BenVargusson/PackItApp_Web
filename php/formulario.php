@@ -8,13 +8,64 @@
     <link rel="icon" href="../img/log.png">
     <script src="https://kit.fontawesome.com/e7dc23b135.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/form.css">
     <?php include("main.php"); ?>
     <?php error_reporting(0); ?>
 </head>
 <body>
+<nav class="navbar is-transparent">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#">
+          </a>
+          <div class="navbar-burger" data-target="navbarExampleTransparentExample">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      
+        <div id="navbarExampleTransparentExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="../index.html">
+              <img src="../img/log.png" alt="#">
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="nav_btn" href="#">
+                Sobre Nosotros
+              </a>
+                <div class="navbar-dropdown is-boxed">
+                <a class="navbar-item" href="../views/about-us.html">
+                  ¿Quienes somos?
+                </a>
+                <a class="navbar-item" href="../views/about.html">
+                  Nuestro Producto
+                </a>
+              </div>
+            </div>
+
+
+
+
+          </div>
+      
+          <div class="navbar-end">
+           <div class="navbar-item">
+              <div class="field is-grouped">
+                <p class="control">
+                </p>
+                <p class="control">
+                  <a class="button is-primary" href="./php/formulario.php">
+                    <span class="icon">
+                      <i class="fa-solid fa-address-book"></i>
+                    </span>
+                    <span>¿Tienes Dudas? Contactanos.</span>
+                    </a>
+                  </p>
+                </div>
+              </div>
+           </div>
+         </div>
+      </nav>
   <main>
 <form action="" method="post" class="formulario">
 
@@ -122,16 +173,13 @@
         <br><br>
         <!-- Falta centrar esta parte correctamente. -->
         <!-- ok bb -->
-    <div  class="columns is-centered">
-         <div class="columns is-vcentered">
+    <div class="columns is-centered">
+         <div class="columns is-centered">
           <div class="control">
-            <input type="submit" class="button is-link" name= "btnEnviar" style="padding-right: 20px;" value= "Enviar">&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="submit" class="button is-success" name= "btnEnviar" value= "Enviar">&nbsp;&nbsp;&nbsp;&nbsp;
           </div>
           <br>
-          <br>
-          <div class="control">
-            <a href="../index.html" class="btn btn-success" style="padding-right: 20px;">Regresar</a>
-          </div>
+          <br><br><br><br><br><br><br>
         </div>
     </div>
 
@@ -150,7 +198,7 @@
 
       </div>
 
-      &nbsp;&nbsp;&nbsp;&nbsp;;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;<br>
 
 
 

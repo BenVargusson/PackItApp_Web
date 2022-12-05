@@ -7,7 +7,6 @@ border-top: 2px solid #004a3f;
 } 
 
 
-
 .nav_btn
 {
   margin-top:10px;
@@ -41,7 +40,7 @@ border-top: 2px solid #004a3f;
 
 main
 {
-  margin-top:-70px;
+  margin-top:50px;
 }
 
 .stock_workers_images img
@@ -87,10 +86,6 @@ justify-content: space-around;
   border: 1px solid;
 }
 
-.formulario_pagina{
-  color: black;
-  border-style: inset;
-}
 
 
 
