@@ -100,15 +100,14 @@
           <div class="column is-3"><!-- Para que los campos no se vean tan amplios-->
           <label class="label">Correo al cual se enviará la información</label>
             <div class="control has-icons-left has-icons-right">
-              <input class="input is-danger" type="email" name="correo" placeholder="Ingrese el correo electrónico." value="">
+              <input class="input is-success" type="email" name="correo" placeholder="Ingrese el correo electrónico." value="">
               <span class="icon is-small is-left">
               <i class="fas fa-envelope"></i>
               </span>
               <span class="icon is-small is-right">
-              <i class="fas fa-exclamation-triangle"></i>
+              <i class="fas fa-check"></i>
               </span>
             </div>
-            <p class="help is-danger">El correo no es válido.</p>
           </div>
         </div>
 
@@ -176,7 +175,7 @@
     <div class="columns is-centered">
          <div class="columns is-centered">
           <div class="control">
-            <input type="submit" class="button is-success" name= "btnEnviar" value= "Enviar">&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="submit" class="button is-success" name= "btnEnviar" onclick="msg()" value= "Enviar">&nbsp;&nbsp;&nbsp;&nbsp;
           </div>
           <br>
           <br><br><br><br><br><br><br>
@@ -268,14 +267,16 @@ if ($_POST['btnEnviar'] == "Enviar" ) {
   mysqli_query($cnn,$insertar);
 
 
-  echo "<script>alert('Se ha Enviado su Formulario Pronto Estaremos en contacto....')</script>";
+  echo  "<script>
+  function msg()
+  {
+  alert('Solicitud Ingresada Exitosamente Pronto Lo Contactaremos...');
+  }
 
-  
+  </script>";
+
+
 }
-
-
-
-
 
 
 ?>
