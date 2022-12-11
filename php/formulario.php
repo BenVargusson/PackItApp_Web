@@ -175,7 +175,7 @@
     <div class="columns is-centered">
          <div class="columns is-centered">
           <div class="control">
-            <input type="submit" class="button is-success" name= "btnEnviar" onclick="msg()" value= "Enviar">&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="submit" class="button is-success" name= "btnEnviar" value= "Enviar">&nbsp;&nbsp;&nbsp;&nbsp;
           </div>
           <br>
           <br><br><br><br><br><br><br>
@@ -264,16 +264,16 @@ if ($_POST['btnEnviar'] == "Enviar" ) {
   $insertar = "INSERT INTO formulario_contacto VALUES ('$rut','$nombres','$correos','$regiones','$comunas','$mensajes','$condiciones')";
 
  
-  mysqli_query($cnn,$insertar);
+  $rs = mysqli_query($cnn,$insertar);
 
-
-  echo  "<script>
-  function msg()
+  if($rs)
   {
-  alert('Solicitud Ingresada Exitosamente Pronto Lo Contactaremos...');
+    echo "<script>alert('Solicitud Ingresada Exitosamente Pronto Lo Contactaremos...')</script>";
   }
-
-  </script>";
+  else
+  {
+    echo "<script>alert('Error.')</script>";
+  }
 
 
 }
